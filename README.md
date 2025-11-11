@@ -7,6 +7,22 @@
 
 ---
 
+## 📚 Table of Contents
+
+- [✨ Overview](#-overview)
+- [🚀 Features](#-features)
+- [🛠️ Tech Stack](#-tech-stack)
+- [📂 Folder Structure](#-folder-structure)
+- [📸 Screenshots](#-screenshots)
+- [📈 Project Purpose](#-project-purpose)
+- [🚧 Future Enhancements](#-future-enhancements)
+- [👤 About Me](#-about-me)
+- [🤝 Contributing](#-contributing)
+- [🪪 License](#-license)
+- [⭐ Project Status](#-project-status)
+
+---
+
 ## ✨ Overview
 
 **Routine** is a clean and minimal productivity web app that helps users organize their day into time-based slots. It was built as part of my journey to master React and modern front-end development while solving a real-life need for structure and focus in everyday life.
@@ -29,6 +45,12 @@ This project demonstrates my skills in:
 - 🌐 Fully responsive design (Mobile + Desktop)
 - ⚡ Fast performance using Vite build tool
 - 🧠 Minimal and intuitive interface
+
+---
+
+## 📸 Screenshots
+
+> _(Coming Soon: Add real screenshots or a short demo video link here to impress recruiters.)_
 
 ---
 
@@ -59,14 +81,6 @@ routine/
 
 ---
 
-## 📸 Screenshots
-
-> _Add real screenshots or a short demo video link here to impress recruiters._
-
-![App Screenshot](https://via.placeholder.com/800x400?text=Routine+App+Screenshot)
-
----
-
 ## 📈 Project Purpose
 
 I created this project to:
@@ -85,6 +99,13 @@ I created this project to:
 - 📅 Weekly and monthly planner views
 - 🔗 Google Calendar or Outlook sync
 - 📱 PWA (Progressive Web App) support
+
+---
+
+## ⭐ Project Status
+
+✅ Version 1.0 complete
+🔜 New features in development
 
 ---
 
@@ -107,10 +128,3 @@ If you’d like to suggest improvements or contribute, feel free to fork the rep
 ## 🪪 License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-## ⭐ Project Status
-
-✅ Version 1.0 complete  
-🔜 New features in development  
