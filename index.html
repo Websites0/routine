@@ -127,7 +127,7 @@
                     daySchedule.forEach(classItem => {
                         html += `
                             <div class="border-l-4 border-blue-500 pl-3">
-                                <p class="text-sm font-medium text-gray-500">${classItem.start} AM - ${classItem.end} AM</p>
+                                <p class="text-sm font-medium text-gray-500">${formatTime(classItem.start)} - ${formatTime(classItem.end)}</p>
                                 <p class="text-lg font-semibold text-gray-900">${classItem.subject}</p>
                                 <p class="text-sm text-gray-600">(${classItem.teacher})</p>
                             </div>
@@ -287,7 +287,16 @@
         function pad(num) {
             return num < 10 ? '0' + num : num;
         }
-
+        /**
+         * Converts a 24-hour time string to a 12-hour AM/PM format
+         */
+        function formatTime(timeString) {
+            const [hour, minute] = timeString.split(':');
+            let h = parseInt(hour, 10);
+            const ampm = h >= 12 ? 'PM' : 'AM';
+            h = h % 12 || 12; // Convert 0 to 12
+            return `${h}:${minute} ${ampm}`;
+        }
         // --- INITIALIZATION ---
         document.addEventListener('DOMContentLoaded', () => {
             buildScheduleCards(); // Build the HTML

@@ -1,90 +1,65 @@
-# 📅 Routine — Daily Planner App (React + Vite)
+# 📅 My Digital Class Routine
 
-> A responsive and interactive daily routine planner built using **React** and **Vite**. Designed to help users manage tasks, structure their day, and increase productivity — whether you're a student, professional, or job seeker.
-
-[🔗 Live Demo (Coming Soon)](https://your-live-demo-link.com)  
-[📂 GitHub Repository](https://github.com/Websites0/routine)
+> A responsive and interactive digital class routine viewer built with HTML, Tailwind CSS, and vanilla JavaScript.
 
 ---
 
 ## ✨ Overview
 
-**Routine** is a clean and minimal productivity web app that helps users organize their day into time-based slots. It was built as part of my journey to master React and modern front-end development while solving a real-life need for structure and focus in everyday life.
+This project is a clean and simple web application that displays a weekly class schedule. It highlights the current day, shows the current time, and provides a countdown to the next class. The main goal was to create a user-friendly and visually appealing interface to keep track of academic schedules.
 
-This project demonstrates my skills in:
+This project demonstrates skills in:
 
-- React component-based architecture  
-- Front-end state management  
-- Responsive UI design  
-- Local storage integration  
-- Clean and scalable project structure
+-   Front-end development with vanilla JavaScript
+-   Responsive UI design using Tailwind CSS
+-   DOM manipulation and dynamic content rendering
+-   Date and time handling in JavaScript
 
 ---
 
 ## 🚀 Features
 
-- 📝 Add, edit, and remove routine tasks
-- ⏰ Assign time blocks to organize the day
-- 💾 Save data automatically with local storage
-- 🌐 Fully responsive design (Mobile + Desktop)
-- ⚡ Fast performance using Vite build tool
-- 🧠 Minimal and intuitive interface
+-   **Weekly Schedule Display**: Shows the class schedule for each day of the week.
+-   **Current Day Highlighting**: The current day's schedule card is visually highlighted.
+-   **Real-Time Clock**: Displays the current date and time, updating every second.
+-   **Next Class Countdown**: A countdown timer shows the time remaining until the next class starts or the current class ends.
+-   **Responsive Design**: The layout is optimized for both mobile and desktop devices.
+-   **Minimalist Interface**: A clean and intuitive user interface.
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Technology   | Description                       |
-|--------------|-----------------------------------|
-| React        | JavaScript UI library             |
-| Vite         | Fast build tool for React apps    |
-| CSS          | Custom styles for layout & design |
-| LocalStorage | Browser storage for persistence   |
+| Technology         | Description                                   |
+| ------------------ | --------------------------------------------- |
+| HTML               | The standard markup language for documents    |
+| Tailwind CSS       | A utility-first CSS framework for styling     |
+| Vanilla JavaScript | For implementing the interactive features     |
 
 ---
 
-## 📂 Folder Structure
+## 📂 Project Structure
 
-routine/
-├── public/
-│ └── index.html
-├── src/
-│ ├── components/
-│ │ └── [Your Reusable Components]
-│ ├── App.jsx
-│ ├── main.jsx
-│ └── index.css
-├── package.json
-└── vite.config.js
+The project is contained within a single `index.html` file, making it lightweight and easy to manage.
+
+-   `index.html`: Contains the HTML structure, CSS (via Tailwind CDN and a `<style>` block), and all the JavaScript logic.
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshot
 
-> _Add real screenshots or a short demo video link here to impress recruiters._
-
-![App Screenshot](https://via.placeholder.com/800x400?text=Routine+App+Screenshot)
+![App Screenshot](https://i.ibb.co/3fdTLb9/image.png)
 
 ---
 
 ## 📈 Project Purpose
 
-I created this project to:
+This project was created to:
 
-- Sharpen my **React** and **Vite** development skills
-- Understand local storage and component structure
-- Create a tool I can use daily to stay productive
-- Showcase a clean and well-documented portfolio project
-
----
-
-## 🚧 Future Enhancements
-
-- 🔔 Task reminders and notification system
-- 🌓 Dark mode toggle
-- 📅 Weekly and monthly planner views
-- 🔗 Google Calendar or Outlook sync
-- 📱 PWA (Progressive Web App) support
+-   Practice and enhance skills in vanilla JavaScript and Tailwind CSS.
+-   Gain a deeper understanding of DOM manipulation and date handling.
+-   Build a practical tool for personal use.
+-   Serve as a clean and well-documented portfolio project.
 
 ---
 
@@ -107,10 +82,3 @@ If you’d like to suggest improvements or contribute, feel free to fork the rep
 ## 🪪 License
 
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-## ⭐ Project Status
-
-✅ Version 1.0 complete  
-🔜 New features in development  
