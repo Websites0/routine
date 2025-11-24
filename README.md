@@ -2,6 +2,8 @@
 
 > A responsive and interactive digital class routine viewer built with HTML, Tailwind CSS, and vanilla JavaScript.
 
+![App Screenshot](https://i.ibb.co/3fdTLb9/image.png)
+
 ---
 
 ## ✨ Overview
@@ -42,13 +44,28 @@ This project demonstrates skills in:
 
 The project is contained within a single `index.html` file, making it lightweight and easy to manage.
 
+```
+.
+├── index.html
+└── README.md
+```
+
 -   `index.html`: Contains the HTML structure, CSS (via Tailwind CDN and a `<style>` block), and all the JavaScript logic.
 
 ---
 
-## 📸 Screenshot
+## 🏁 Getting Started
 
-![App Screenshot](https://i.ibb.co/3fdTLb9/image.png)
+Since this project is a single-file application, running it is extremely simple.
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/Websites0/routine.git
+    ```
+2.  **Open the file:**
+    Navigate to the project folder and double-click `index.html` to open it in your default web browser.
+
+No build steps or server required!
 
 ---
 
